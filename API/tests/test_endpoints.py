@@ -1,5 +1,6 @@
 
 from unittest import TestCase, skip 
+from flask_restx import Resource, Api
 
 import API.endpoints as ep
 
