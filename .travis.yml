@@ -14,7 +14,7 @@ script:
 # deploy to heroku on push to master
 deploy:
     - provider: heroku
-      api_key: $HEROKU_API_KEY
+      api_key: 3506442f-f312-4eca-83cb-08dd59f76501
       app: dev-demo-2021
       on:
           branch: master
